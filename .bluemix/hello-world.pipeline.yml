@@ -36,7 +36,7 @@ stages:
       #!/bin/bash
       # Push app
       export CF_APP_NAME="$CF_APP"
-      cf push "${CF_APP_NAME}"
+      cf push "${CF_APP_NAME}" -m 256M
       export APP_URL=http://$(cf app $CF_APP_NAME | grep urls: | awk '{print $2}')
       # View logs
       #cf logs "${CF_APP_NAME}" --recent
