@@ -1,8 +1,8 @@
 {
     "$schema": "http://json-schema.org/draft-04/schema#",
-    "title": "Hello World Deploy Stage",
-    "description": "hello-world simple toolchain",
-    "longDescription": "The Delivery Pipeline for Devops Services allows you to automate your continuous deployment setup hello-world.",
+    "title": "Sample Deploy Stage",
+    "description": "sample toolchain",
+    "longDescription": "The Delivery Pipeline for Devops Services allows you to automate your continuous deployment.",
     "type": "object",
     "properties": {
         "prod-region": {
@@ -17,12 +17,12 @@
             "description": "The bluemix space",
             "type": "string"
         },
-       "hello-world-name": {
+       "prod-app-name": {
             "description": "hello world app name",
             "type": "string"
         }
     },
-    "required": ["prod-region", "prod-organization", "prod-space", "hello-world-name"],
+    "required": ["prod-region", "prod-organization", "prod-space", "prod-app-name"],
     "form": [
        {
           "type": "validator",
@@ -31,8 +31,8 @@
         {
           "type": "text",
           "readonly": false,
-          "title": "Hello World App Name",
-          "key": "hello-world-name"
+          "title": "App Name",
+          "key": "prod-app-name"
         },
         {
             "type": "table",

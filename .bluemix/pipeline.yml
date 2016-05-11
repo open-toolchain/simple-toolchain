@@ -4,7 +4,7 @@ stages:
   inputs:
   - type: git
     branch: master
-    service: ${HELLO_WORLD_REPO}
+    service: ${SAMPLE_REPO}
   triggers:
   - type: commit
   jobs:
