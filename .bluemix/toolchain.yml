@@ -46,5 +46,5 @@ deploy:
   parameters:
     prod-region: "{{region}}"
     prod-organization: "{{organization}}"
-    prod-space: prod
+    prod-space: "{{space}}"
     prod-app-name: "{{sample-repo.parameters.repo_name}}"
