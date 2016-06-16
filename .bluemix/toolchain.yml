@@ -9,7 +9,7 @@ required:
 
 # Github repos
 sample-repo:
-  service_id: githubpublic
+  service_id: github
   parameters:
     repo_name: "sample-{{name}}"
     repo_url: https://github.com/open-toolchain/node-hello-world
@@ -33,11 +33,6 @@ sample-build:
      execute: true
     services: ["sample-repo"]
   hidden: [form, description]
-    
-
-#Web IDE
-webide:
-  service_id: orion
   
 #Deployment
 deploy:
