@@ -34,10 +34,6 @@ sample-build:
     services: ["sample-repo"]
   hidden: [form, description]
 
-#Web IDE
-webide:
-  service_id: orion
-
 #Deployment
 deploy:
   schema: deploy.json
