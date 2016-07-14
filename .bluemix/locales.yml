@@ -4,6 +4,6 @@ en:
 de:
   $ref: ./nls/messages_de.yml
 fr-ca:
-  $ref: ./nls/messages_fr-ca.yml
+  $ref: ./nls/messages_fr1-ca.yml
 ja:
   $ref: ./nls/messages_ja.yml
