@@ -3,7 +3,7 @@ en:
   $ref: ./nls/messages.yml
 de:
   $ref: ./nls/messages_de.yml
-fr:
+fr-ca:
   $ref: ./nls/messages_fr-ca.yml
 ja:
   $ref: ./nls/messages_ja.yml

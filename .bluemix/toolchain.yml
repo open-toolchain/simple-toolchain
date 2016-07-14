@@ -1,7 +1,7 @@
 ---
-locales:
-  $ref: locales.yml
 default_locale: en
+locales: 
+  $ref: locales.yml
 name: "%name"
 description: "%description"
 version: 0.1
