@@ -1,0 +1,3 @@
+---
+name: "Simple toolchain Cloud Foundry"
+description: "Avec cette toolchain, vous pouvez développer et déployer une application Cloud Foundry. Par défaut, le toolchain utilise un échantillon Node.js app Bonjour tout le monde, mais vous pouvez créer un lien vers votre propre référentiel GitHub place. Ce toolchain est préconfiguré pour la livraison continue, le contrôle de la source, le suivi des problèmes, et l'édition en ligne.\n\nPour commencer, cliquez sur **Créer**."
