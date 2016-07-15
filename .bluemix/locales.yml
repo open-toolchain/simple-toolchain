@@ -1,9 +1,7 @@
 ---
-en:
-  $ref: ./nls/messages.yml
 de:
   $ref: ./nls/messages_de.yml
-fr-ca:
-  $ref: ./nls/messages_fr1-ca.yml
+fr:
+  $ref: ./nls/messages_fr.yml
 ja:
   $ref: ./nls/messages_ja.yml
