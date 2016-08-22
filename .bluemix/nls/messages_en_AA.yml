@@ -1,0 +1,12 @@
+---
+name: "1:Simple Cloud Foundry toolchain"
+description: "2:With this toolchain, you can develop and deploy a Cloud Foundry application. By default, the toolchain uses a sample Node.js Hello World app, but you can link to your own GitHub repository instead. This toolchain is preconfigured for continuous delivery, source control, issue tracking, and online editing.\n\nTo get started, click **Create**."
+$deploy.title: "3:Sample Deploy Stage"
+$deploy.description: "4:sample toolchain"
+$deploy.longDescription: "5:The Delivery Pipeline for Devops Services allows you to automate your continuous deployment."
+$deploy.appDescription: "6:hello world app name"
+$deploy.appName: "7:App Name"
+$region: "8:Region"
+$organization: "9:Organization"
+$space: "10:Space"
+$prodStage: "11:Prod Stage"
