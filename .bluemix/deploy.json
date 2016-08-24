@@ -2,7 +2,7 @@
     "$schema": "http://json-schema.org/draft-04/schema#",
     "title": "Sample Deploy Stage",
     "description": "sample toolchain",
-    "longDescription": "The Delivery Pipeline for Devops Services allows you to automate your continuous deployment.",
+    "longDescription": "The Delivery Pipeline automates continuous deployment.",
     "type": "object",
     "properties": {
         "prod-region": {
@@ -18,7 +18,7 @@
             "type": "string"
         },
        "prod-app-name": {
-            "description": "hello world app name",
+            "description": "The name of your Hello World app",
             "type": "string"
         }
     },
@@ -31,7 +31,7 @@
         {
           "type": "text",
           "readonly": false,
-          "title": "App Name",
+          "title": "App name",
           "key": "prod-app-name"
         },
         {
@@ -57,7 +57,7 @@
                 },
                 {
                   "type": "label",
-                  "title": "Prod Stage"
+                  "title": "Production stage"
                 },
                 {
                   "type": "select",
