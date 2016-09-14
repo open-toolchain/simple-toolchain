@@ -1,6 +1,6 @@
 ---
 name: "Chaîne d'outils Cloud Foundry simple"
-description: "Cette chaîne d'outils vous permet de développeur et de déployer une application Cloud Foundry. Par défaut, la chaîne d'outils utilise une application exemple Node.js Hello World, mais vous pouvez vous lier à votre propre référentiel GitHub à la place. Cette chaîne d'outils est préconfigurée pour la distribution continue, le contrôle des sources, le suivi des problèmes et l'édition en ligne.\n\nPour commencer, cliquez sur **Créer**."
+description: "Cette chaîne d'outils vous permet de développer et de déployer une application Cloud Foundry. Par défaut, la chaîne d'outils utilise une application exemple Node.js Hello World, mais vous pouvez vous lier à votre propre référentiel GitHub à la place. Cette chaîne d'outils est préconfigurée pour la distribution continue, le contrôle des sources, le suivi des problèmes et l'édition en ligne.\n\nPour commencer, cliquez sur **Créer**."
 $deploy.title: "Etape de déploiement exemple"
 $deploy.description: "Chaîne d'outils exemple"
 $deploy.longDescription: "Delivery Pipeline automatise le déploiement en continu."
@@ -10,4 +10,3 @@ $region: "Région"
 $organization: "Organisation"
 $space: "Espace"
 $prodStage: "Etape de production"
- 
