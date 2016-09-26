@@ -12,7 +12,7 @@ required:
 
 # Github repos
 sample-repo:
-  service_id: github
+  service_id: githubpublic
   parameters:
     repo_name: "sample-{{name}}"
     repo_url: https://github.com/open-toolchain/node-hello-world
