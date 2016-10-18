@@ -11,17 +11,9 @@
         "percentPass":100,
         "regressionCheck":true,
         "criticalTests":[
-          "Get Weather 2 with incomplete zip code",
-          "Get Weather 2 with without zip code",
-          "Get Weather with valid zip code"
+          "Server Tests should return 200 code if the server is running",
+          "Server Tests should return 404 code for an invalid route"
         ]
-      },
-      {
-        "description": "Code Coverage Rule",
-        "format":"istanbul",
-        "stage":"code",
-        "codeCoverage":80,
-        "regressionCheck":true
       }
     ]
   }
