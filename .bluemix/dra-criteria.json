@@ -1,7 +1,7 @@
 [
   {
-    "name":"Unit Test and Code Coverage Checks",
-    "description": "Composite Policy to check both Unit Tests and Code Coverage.",
+    "name":"Unit Test Checks",
+    "description": "Policy to check Unit Tests.",
     "rules":[
       {
         "name": "Mocha Unit Test",

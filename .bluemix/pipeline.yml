@@ -37,11 +37,11 @@ stages:
       #!/bin/bash
       export PATH=/opt/IBM/node-v4.2/bin:$PATH
       npm install
-      grunt --no-color -f   
-  - name: Unit Test and Code Coverage Gate
+      grunt --no-color -f
+  - name: Unit Test Gate
     type: tester
     extension_id: ibm.devops.services.pipeline.dra_devops_gate
-    CRITERIA: Unit Test and Code Coverage Checks
+    CRITERIA: Unit Test Checks
     APPLICATION_NAME: Simple
     ENVIRONMENT: DEV
   - name: Deploy
