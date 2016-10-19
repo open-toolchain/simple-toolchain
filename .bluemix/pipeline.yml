@@ -10,9 +10,6 @@ stages:
   jobs:
   - name: Build
     type: builder
-    build_type: npm
-    script: |-
-      npm install
 - name: DEPLOY
   inputs:
   - type: job
