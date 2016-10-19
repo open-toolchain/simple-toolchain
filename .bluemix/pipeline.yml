@@ -10,6 +10,9 @@ stages:
   jobs:
   - name: Build
     type: builder
+    build_type: npm
+    script: |-
+      npm install
 - name: DEPLOY
   inputs:
   - type: job
@@ -37,7 +40,7 @@ stages:
       #!/bin/bash
       export PATH=/opt/IBM/node-v4.2/bin:$PATH
       npm install
-      grunt --no-color -f
+      grunt pipeline --no-color -f
   - name: Unit Test Gate
     type: tester
     extension_id: ibm.devops.services.pipeline.dra_devops_gate
