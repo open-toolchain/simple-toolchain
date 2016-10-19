@@ -47,7 +47,4 @@ deploy:
     $ref: deploy.json
   service-category: pipeline
   parameters:
-    prod-region: "{{region}}"
-    prod-organization: "{{organization}}"
-    prod-space: prod
     prod-app-name: "{{sample-repo.parameters.repo_name}}"
