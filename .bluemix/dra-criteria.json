@@ -1,0 +1,20 @@
+[
+  {
+    "name":"Unit Test Checks",
+    "description": "Policy to check Unit Tests.",
+    "rules":[
+      {
+        "name": "Mocha Unit Test",
+        "description": "Unit Test Rule",
+        "format":"mocha",
+        "stage":"unittest",
+        "percentPass":100,
+        "regressionCheck":true,
+        "criticalTests":[
+          "Server Tests should return 200 code if the server is running",
+          "Server Tests should return 404 code for an invalid route"
+        ]
+      }
+    ]
+  }
+]

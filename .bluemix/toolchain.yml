@@ -1,12 +1,12 @@
 ---
 default_locale: en
-locales: 
+locales:
   $ref: locales.yml
 name: "Simple Cloud Foundry toolchain"
 description: "With this toolchain, you can develop and deploy a Cloud Foundry application. By default, the toolchain uses a sample Node.js Hello World app, but you can link to your own GitHub repository instead. This toolchain is preconfigured for continuous delivery, source control, issue tracking, and online editing.\n\nTo get started, click **Create**."
 version: 0.1
 image: data:image/png;base64,$file(toolchain.png,base64)
-required: 
+required:
  - deploy
  - sample-repo
 
@@ -15,7 +15,7 @@ sample-repo:
   service_id: githubpublic
   parameters:
     repo_name: "{{name}}"
-    repo_url: https://github.com/open-toolchain/node-hello-world
+    repo_url: https://github.com/c4k9c0/node-hello-world
     type: clone
     has_issues: true
 
@@ -25,7 +25,7 @@ sample-build:
   parameters:
     name: "{{name}}"
     ui-pipeline: true
-    configuration: 
+    configuration:
      content: $file(pipeline.yml)
      env:
       SAMPLE_REPO: "sample-repo"
@@ -36,15 +36,19 @@ sample-build:
      execute: true
     services: ["sample-repo"]
   hidden: [form, description]
-    
+
+#Deployment Risk Analytics
+dra:
+  service_id: draservicebroker
+  include: dra.yml
 
 #Web IDE
 webide:
   service_id: orion
-  
+
 #Deployment
 deploy:
-  schema: 
+  schema:
     $ref: deploy.json
   service-category: pipeline
   parameters:

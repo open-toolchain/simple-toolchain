@@ -1,0 +1,3 @@
+---
+parameters:
+  criteria: $file(dra-criteria.json)

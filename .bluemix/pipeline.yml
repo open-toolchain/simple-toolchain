@@ -10,6 +10,16 @@ stages:
   jobs:
   - name: Build
     type: builder
+    artifact_dir: ''
+    build_type: npm
+    script: |-
+      #!/bin/bash
+      # The default Node.js version is 0.10.40
+      # To use Node.js 0.12.7, uncomment the following line:
+      #export PATH=/opt/IBM/node-v0.12/bin:$PATH
+      # To use Node.js 4.2.2, uncomment the following line:
+      #export PATH=/opt/IBM/node-v4.2/bin:$PATH
+      npm install
 - name: DEPLOY
   inputs:
   - type: job
@@ -25,6 +35,25 @@ stages:
     value: undefined
     type: text
   jobs:
+  - name: Unit Tests
+    type: tester
+    extension_id: ibm.devops.services.pipeline.dra_upload_results
+    APPLICATION_NAME: Simple
+    FORMAT_SELECT: mocha
+    LIFE_CYCLE_STAGE_SELECT: unittest
+    LOG_FILE: ./mochatest.json
+    ENVIRONMENT: DEV
+    COMMAND: |
+      #!/bin/bash
+      export PATH=/opt/IBM/node-v4.2/bin:$PATH
+      npm install
+      grunt pipeline --no-color -f
+  - name: Unit Test Gate
+    type: tester
+    extension_id: ibm.devops.services.pipeline.dra_devops_gate
+    CRITERIA: Unit Test Checks
+    APPLICATION_NAME: Simple
+    ENVIRONMENT: DEV
   - name: Deploy
     type: deployer
     target:
