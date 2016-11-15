@@ -3,7 +3,7 @@ default_locale: en
 locales: 
   $ref: locales.yml
 name: "Simple Cloud Foundry toolchain"
-description: "With this toolchain, you can develop and deploy a Cloud Foundry application. By default, the toolchain uses a sample Node.js \"Hello World\" app, or you can link to your own GitHub repository. This toolchain is preconfigured for continuous delivery, source control, issue tracking, and online editing.\n\nThis toolchain requires a Continuous Delivery service instance ([more information and terms](/catalog/services/continuous-delivery/)). When you click **Create** the service instance is automatically created. You will not be charged.\n\nTo get started, click **Create**."
+description: "With this toolchain, you can develop and deploy a Cloud Foundry application. By default, the toolchain uses a sample Node.js \"Hello World\" app, or you can link to your own GitHub repository. This toolchain is preconfigured for continuous delivery, source control, issue tracking, and online editing.\n\nThis toolchain uses tools that are part of the Continuous Delivery service. If an instance of that service isn't already in your organization, when you click **Create**, it is automatically added at no cost to you. For more information and terms, see the [Bluemix catalog](/catalog/services/continuous-delivery/).\n\nTo get started, click **Create**."
 version: 0.1
 image: data:image/svg+xml;base64,$file(toolchain.svg,base64)
 icon: data:image/svg+xml;base64,$file(icon.svg,base64)
