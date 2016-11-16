@@ -54,9 +54,9 @@ stages:
         cf push $CF_APP
         cf delete $OLD_CF_APP -f
       fi
+      # Export app name and URL for use in later Pipeline jobs
+      export CF_APP_NAME="$CF_APP"
+      export APP_URL=http://$(cf app $CF_APP_NAME | grep urls: | awk '{print $2}')
       # View logs
       #cf logs "${CF_APP}" --recent
       
-      # Export app name and URL for use in later stages
-      export CF_APP_NAME="$CF_APP"
-      export APP_URL=http://$(cf app $CF_APP_NAME | grep urls: | awk '{print $2}')
