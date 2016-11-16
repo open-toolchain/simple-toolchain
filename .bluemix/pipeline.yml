@@ -25,7 +25,7 @@ stages:
     value: undefined
     type: text
   jobs:
-  - name: Deploy
+  - name: Blue-Green Deploy
     type: deployer
     target:
       region_id: ${PROD_REGION_ID}
@@ -55,4 +55,8 @@ stages:
         cf delete $OLD_CF_APP -f
       fi
       # View logs
-      #cf logs "${CF_APP_NAME}" --recent
+      #cf logs "${CF_APP}" --recent
+      
+      # Export app name and URL for use in later stages
+      export CF_APP_NAME="$CF_APP"
+      export APP_URL=http://$(cf app $CF_APP_NAME | grep urls: | awk '{print $2}')
