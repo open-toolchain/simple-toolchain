@@ -1,6 +1,6 @@
 ---
 name: "Toolchain Cloud Foundry semplice"
-description: "Utilizzando questa toolchain, è possibile sviluppare e distribuire un'applicazione Cloud Foundry. Per impostazione predefinita, la toolchain utilizza un'app Hello World Node.js di esempio, ma è possibile effettuare il collegamento al proprio repository GitHub. Questa toolchain è preconfigurata per la distribuzione continua, il controllo origine, la traccia dei problemi e la modifica online.\n\nPer iniziare, fare clic su **Crea**."
+description: "Utilizzando questa toolchain, è possibile sviluppare e distribuire un'applicazione Cloud Foundry. Per impostazione predefinita, la toolchain utilizza un'app \"Hello World\" Node.js di esempio, oppure è possibile effettuare il collegamento al proprio repository GitHub. Questa toolchain è preconfigurata per la distribuzione continua, il controllo origine, la traccia dei problemi e la modifica online.\n\nPer iniziare, fare clic su **Crea**."
 $deploy.title: "Stage di distribuzione di esempio"
 $deploy.description: "toolchain di esempio"
 $deploy.longDescription: "Delivery Pipeline automatizza la distribuzione continua."
