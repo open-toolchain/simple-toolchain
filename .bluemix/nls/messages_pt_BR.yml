@@ -1,6 +1,6 @@
 ---
 name: "Cadeia de ferramentas Cloud Foundry simples"
-description: "Com esta cadeia de ferramentas, é possível desenvolver e implementar um aplicativo Cloud Foundry. Por padrão, a cadeia de ferramentas usa um aplicativo Node.js Hello World de amostra, mas é possível vincular com seu próprio repositório GitHub em vez disso. Esta cadeia de ferramentas é pré-configurada para entrega contínua, controle de fonte, rastreamento de problemas e edição on-line.\n\nPara iniciar, clique em **Criar**."
+description: "Com esta cadeia de ferramentas, é possível desenvolver e implementar um aplicativo Cloud Foundry. Por padrão, a cadeia de ferramentas usa um app Node.js \"Hello World\" de amostra ou é possível vincular-se a seu próprio repositório GitHub. Esta cadeia de ferramentas é pré-configurada para entrega contínua, controle de fonte, rastreamento de problemas e edição on-line.\n\nPara iniciar, clique em **Criar**."
 $deploy.title: "Estágio de Implementação de Amostra"
 $deploy.description: "cadeia de ferramentas de amostra"
 $deploy.longDescription: "O Delivery Pipeline automatiza a implementação contínua."

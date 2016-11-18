@@ -1,6 +1,6 @@
 ---
 name: "Einfache Cloud Foundry-Toolchain"
-description: "Mit dieser Toolchain können Sie eine Cloud Foundry-Anwendung entwickeln und bereitstellen. Standardmäßig verwendet die Toolchain die Node.js-App \"Hello World\", aber Sie können stattdessen auch eine Verknüpfung zu Ihrem eigenen GitHub-Repository herstellen. Diese Toolchain ist für die kontinuierliche Bereitstellung, Quellcodeverwaltung, Problemverfolgung und Onlinebearbeitung vorkonfiguriert.\n\nKlicken Sie auf **Erstellen**, um zu beginnen."
+description: "Mit dieser Toolchain können Sie eine Cloud Foundry-Anwendung entwickeln und bereitstellen. Standardmäßig verwendet die Toolchain die Node.js-Beispiel-App \"Hello World\"; Sie können aber auch eine Verknüpfung zu Ihrem eigenen GitHub-Repository herstellen. Diese Toolchain ist für die kontinuierliche Bereitstellung, Quellcodeverwaltung, Problemverfolgung und Onlinebearbeitung vorkonfiguriert.\n\nKlicken Sie auf **Erstellen**, um zu beginnen."
 $deploy.title: "Beispielbereitstellungsphase"
 $deploy.description: "Beispieltoolchain"
 $deploy.longDescription: "Mit Delivery Pipeline wird die kontinuierliche Bereitstellung automatisiert."
