@@ -1,6 +1,6 @@
 ---
 name: "[G'Ｓｉｍｐｌｅ Ｃｌｏud Foundry toolchainฏูİı｜]"
-description: "[G'Ｗｉｔｈ ｔｈｉｓ ｔｏｏｌｃｈａｉｎ, ｙｏｕ ｃａｎ ｄｅｖｅｌｏｐ ａｎｄ ｄｅｐｌｏｙ ａ Ｃｌｏｕｄ Ｆｏｕｎｄｒｙ ａｐｐｌｉｃａｔｉｏｎ. Ｂｙ ｄｅｆａｕｌｔ, ｔｈｅ ｔｏｏｌｃｈａｉｎ ｕｓｅｓ ａ ｓａｍｐle Node.js Hello World app, but you can link to your own GitHub repository instead. This toolchain is preconfigured for continuous delivery, source control, issue tracking, and online editing.\n\nTo get started, click **Create**.ฏูİı｜]"
+description: "[G'Ｗｉｔｈ ｔｈｉｓ ｔｏｏｌｃｈａｉｎ, ｙｏｕ ｃａｎ ｄｅｖｅｌｏｐ ａｎｄ ｄｅｐｌｏｙ ａ Ｃｌｏｕｄ Ｆｏｕｎｄｒｙ ａｐｐｌｉｃａｔｉｏｎ. Ｂｙ ｄｅｆａｕｌｔ, ｔｈｅ ｔｏｏｌｃｈａｉｎ ｕｓｅｓ ａ ｓａmple Node.js \"Hello World\" app, or you can link to your own GitHub repository. This toolchain is preconfigured for continuous delivery, source control, issue tracking, and online editing.\n\nTo get started, click **Create**.ฏูİı｜]"
 $deploy.title: "[G'Ｓａｍｐｌｅ Deploy Stageฏูİı｜]"
 $deploy.description: "[G'ｓａｍｐｌe toolchainฏูİı｜]"
 $deploy.longDescription: "[G'Ｔｈｅ Ｄｅｌｉｖｅｒｙ Ｐipeline automates continuous deployment.ฏูİı｜]"
