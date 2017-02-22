@@ -30,7 +30,7 @@ template:
     git branch: >-
       [master](https://github.com/open-toolchain/simple-toolchain.git/tree/master)
 toolchain:
-  name: 'simple-toolchain.git-{{timestamp}}'
+  name: 'simple-toolchain-{{timestamp}}'
 services:
   sample-repo:
     service_id: githubpublic
