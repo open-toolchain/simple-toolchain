@@ -26,9 +26,9 @@ template:
     - sample-repo
   info:
     git url: >-
-      [https://github.com/open-toolchain/simple-toolchain.git](https://github.com/open-toolchain/simple-toolchain.git)
+      [https://github.com/open-toolchain/simple-toolchain](https://github.com/open-toolchain/simple-toolchain)
     git branch: >-
-      [master](https://github.com/open-toolchain/simple-toolchain.git/tree/master)
+      [master](https://github.com/open-toolchain/simple-toolchain/tree/master)
 toolchain:
   name: 'simple-toolchain-{{timestamp}}'
 services:
