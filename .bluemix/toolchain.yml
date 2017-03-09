@@ -19,7 +19,7 @@ template:
 
 
     To get started, click **Create**.
-  header: '![](toolchain.svg?localize "header image")'
+  header: '![](toolchain.svg?localize)'
   icon: icon.svg
   required:
     - sample-build
