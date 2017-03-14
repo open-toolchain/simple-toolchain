@@ -36,7 +36,7 @@ toolchain:
       **Your toolchain is ready!**
 
       **Quick start:** Commit a change to the Git repo to trigger a new build and deployment.
-      For step-by-step instructions, see the [tutorial](https://www.ibm.com/devops/method/tutorials/tutorial_toolchain_flow?walkthrough_step=0) for this toolchain.
+      For step-by-step instructions, see the [tutorial](https://www.ibm.com/devops/method/tutorials/tutorial_toolchain_flow) for this toolchain.
 services:
   sample-repo:
     service_id: githubpublic
