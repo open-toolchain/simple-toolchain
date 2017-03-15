@@ -54,8 +54,7 @@ services:
       ui-pipeline: true
       configuration:
         content:
-          $ref: pipeline.yml
-          $refType: text
+          $text: pipeline.yml
         env:
           SAMPLE_REPO: sample-repo
           CF_APP_NAME: '{{form.pipeline.parameters.prod-app-name}}'
