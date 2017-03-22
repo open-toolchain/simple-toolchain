@@ -12,7 +12,7 @@ template:
 
 
     To get started, click **Create**.
-  header: '![](toolchain.png)'
+  header: '![](toolchain.svg)'
   required:
     - sample-build
     - sample-repo
