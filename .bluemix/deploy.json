@@ -1,16 +1,16 @@
 {
     "$schema": "http://json-schema.org/draft-04/schema#",
     "messages": {
-       "$i18n": "locales.yml"
+        "$i18n": "locales.yml"
     },
-     "title": {
-      "$ref": "#/messages/deploy.title"
+    "title": {
+        "$ref": "#/messages/deploy.title"
     },
     "description": {
-      "$ref": "#/messages/deploy.description"
+        "$ref": "#/messages/deploy.description"
     },
     "longDescription": {
-      "$ref": "#/messages/deploy.longDescription"
+        "$ref": "#/messages/deploy.longDescription"
     },
     "type": "object",
     "properties": {
@@ -22,76 +22,87 @@
             "description": "The bluemix org",
             "type": "string"
         },
-       "prod-space": {
+        "prod-space": {
             "description": "The bluemix space",
             "type": "string"
         },
-       "prod-app-name": {
+        "prod-app-name": {
             "description": {
-              "$ref": "#/messages/deploy.appDescription"
+                "$ref": "#/messages/deploy.appDescription"
             },
-            "type": "string"
+            "type": "string",
+            "pattern": "\\S"
         }
     },
-    "required": ["prod-region", "prod-organization", "prod-space", "prod-app-name"],
+    "required": [
+        "prod-region",
+        "prod-organization",
+        "prod-space",
+        "prod-app-name"
+    ],
     "form": [
-       {
-          "type": "validator",
-          "url": "/devops/setup/bm-helper/helper.html"
-       },        
         {
-          "type": "text",
-          "readonly": false,
-          "title": {
-            "$ref": "#/messages/deploy.appName"
-          },
-          "key": "prod-app-name"
+            "type": "validator",
+            "url": "/devops/setup/bm-helper/helper.html"
+        },
+        {
+            "type": "text",
+            "readonly": false,
+            "title": {
+                "$ref": "#/messages/deploy.appName"
+            },
+            "key": "prod-app-name"
         },
         {
             "type": "table",
             "columnCount": 4,
-            "widths": ["15%", "28%", "28%", "28%"],
+            "widths": [
+                "15%",
+                "28%",
+                "28%",
+                "28%"
+            ],
             "items": [
                 {
-                  "type": "label",
-                  "title": ""
+                    "type": "label",
+                    "title": ""
                 },
                 {
-                  "type": "label",
-                  "title": {
-                    "$ref": "#/messages/region"
-                  }
+                    "type": "label",
+                    "title": {
+                        "$ref": "#/messages/region"
+                    }
                 },
                 {
-                  "type": "label",
-                  "title": {
-                    "$ref": "#/messages/organization"
-                  }
+                    "type": "label",
+                    "title": {
+                        "$ref": "#/messages/organization"
+                    }
                 },
                 {
-                  "type": "label",
-                  "title": {
-                    "$ref": "#/messages/space"
-                  }
+                    "type": "label",
+                    "title": {
+                        "$ref": "#/messages/space"
+                    }
                 },
                 {
-                  "type": "label",
-                  "title": {
-                    "$ref": "#/messages/prodStage"
-                  }
+                    "type": "label",
+                    "title": {
+                        "$ref": "#/messages/prodStage"
+                    }
                 },
                 {
-                  "type": "select",
-                  "key": "prod-region"
+                    "type": "select",
+                    "key": "prod-region"
                 },
                 {
-                  "type": "select",
-                  "key": "prod-organization"
+                    "type": "select",
+                    "key": "prod-organization"
                 },
                 {
-                  "type": "select",
-                  "key": "prod-space",
-                  "readonly": false
+                    "type": "select",
+                    "key": "prod-space",
+                    "readonly": false
                 }
             ]
         }
