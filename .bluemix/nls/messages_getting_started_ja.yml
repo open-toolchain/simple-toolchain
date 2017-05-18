@@ -1,0 +1,2 @@
+---
+template.gettingStarted: "**ツールチェーンの準備ができました。**\n**クイック・スタート:** Git リポジトリーに対する変更をコミットし、新しいビルドおよびデプロイメントをトリガーしてください。ステップバイステップの説明については、このツールチェーンの[チュートリアル](https://www.ibm.com/devops/method/tutorials/tutorial_toolchain_flow)を参照してください。"

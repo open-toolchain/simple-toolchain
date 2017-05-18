@@ -1,0 +1,2 @@
+---
+template.gettingStarted: "**工具链已就绪！**\n**快速启动：** 将更改落实到 Git 存储库以触发新的构建和部署。有关逐步指示信息，请参阅此工具链的[教程](https://www.ibm.com/devops/method/tutorials/tutorial_toolchain_flow)。"

@@ -1,0 +1,2 @@
+---
+template.gettingStarted: "**도구 체인이 준비되었습니다!**\n**빠른 시작:** Git 저장소에 변경사항을 커미트하여 새 빌드와 배치를 트리거하십시오. 단계별 지시사항은 이 도구 체인의 [튜토리얼](https://www.ibm.com/devops/method/tutorials/tutorial_toolchain_flow)을 참조하십시오."

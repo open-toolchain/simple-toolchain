@@ -1,0 +1,2 @@
+---
+template.gettingStarted: "**Your toolchain is ready!**\n**Quick start:** Commit a change to the Git repo to trigger a new build and deployment. For step-by-step instructions, see the [tutorial](https://www.ibm.com/devops/method/tutorials/tutorial_toolchain_flow?task=2) for this toolchain."
