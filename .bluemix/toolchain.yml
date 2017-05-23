@@ -14,12 +14,12 @@ template:
     git url: >-
       [https://github.com/open-toolchain/simple-toolchain](https://github.com/open-toolchain/simple-toolchain)
     git branch: >-
-      [dedicated-github](https://github.com/open-toolchain/simple-toolchain/tree/dedicated-github)
+      [dedicated-333900](https://github.com/open-toolchain/simple-toolchain/tree/dedicated-333900)
 toolchain:
   name: 'simple-toolchain-{{timestamp}}'
 services:
   sample-repo:
-    service_id: githubpublic
+    service_id: github_333900
     parameters:
       repo_name: '{{toolchain.name}}'
       repo_url: 'https://github.com/open-toolchain/node-hello-world'
