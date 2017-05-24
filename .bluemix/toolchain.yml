@@ -14,7 +14,7 @@ template:
     git url: >-
       [https://github.com/open-toolchain/simple-toolchain](https://github.com/open-toolchain/simple-toolchain)
     git branch: >-
-      [dedicated-no-ghe](https://github.com/open-toolchain/simple-toolchain/tree/dedicated-no-ghe)
+      [dedicated-github](https://github.com/open-toolchain/simple-toolchain/tree/dedicated-github)
 toolchain:
   name: 'simple-toolchain-{{timestamp}}'
 services:
