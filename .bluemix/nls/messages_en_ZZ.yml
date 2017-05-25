@@ -1,7 +1,7 @@
 ---
 template.name: "[G'Ｓｉｍｐｌｅ Ｃｌｏud Foundry toolchainฏูİı｜]"
 template.description: "[G'Ｗｉｔｈ ｔｈｉｓ ｔｏｏｌｃｈａｉｎ, ｙｏｕ ｃａｎ ｄｅｖｅｌｏｐ ａｎｄ ｄｅｐｌｏｙ ａ Ｃｌｏｕｄ Ｆｏｕｎｄｒｙ ａｐｐｌｉｃａｔｉｏｎ. Ｂｙ ｄｅｆａｕｌｔ, ｔｈｅ ｔｏｏｌｃｈａｉｎ ｕｓｅｓ ａ ｓａｍｐｌｅ Ｎｏｄｅ.ｊｓ \"Ｈｅｌｌｏ Ｗｏｒｌｄ\" ａｐｐ, ｏｒ ｙｏｕ ｃａｎ ｌｉｎｋ ｔｏ ｙｏｕｒ ｏｗｎ ＧｉｔＨｕｂ ｒｅｐｏｓｉｔｏｒｙ. Ｔｈｉｓ ｔｏｏｌｃｈａｉｎ ｉｓ ｐｒｅｃｏｎｆｉｇｕｒｅｄ ｆor continuous delivery, source control, issue tracking, and online editing.\n\nThis toolchain uses tools that are part of the Continuous Delivery service. If an instance of that service isn't already in your organization, when you click **Create**, it is automatically added. For more information and terms, see the [Bluemix catalog](/catalog/services/continuous-delivery/).\n\nTo get started, click **Create**.ฏูİı｜]"
-template.gettingStarted: "[G'**Ｙｏｕｒ ｔｏｏｌｃｈａｉｎ ｉｓ ｒｅａｄｙ!**\n**Ｑｕｉｃｋ ｓｔａｒｔ:** Ｃｏｍｍｉｔ ａ ｃｈａｎｇｅ ｔｏ ｔｈｅ Ｇｉｔ ｒｅｐｏ ｔｏ ｔｒｉｇｇｅｒ ａ ｎｅw build and deployment. For step-by-step instructions, see the [tutorial](https://www.ibm.com/devops/method/tutorials/tutorial_toolchain_flow) for this toolchain.ฏูİı｜]"
+template.gettingStarted: "[G'**Ｙｏｕｒ ｔｏｏｌｃｈａｉｎ ｉｓ ｒｅａｄｙ!**\n**Ｑｕｉｃｋ ｓｔａｒｔ:** Ｃｏｍｍｉｔ ａ ｃｈａｎｇｅ ｔｏ ｔｈｅ Ｇｉｔ ｒｅｐｏ ｔｏ ｔｒｉｇｇｅｒ ａ ｎｅｗ ｂuild and deployment. For step-by-step instructions, see the [tutorial](https://www.ibm.com/devops/method/tutorials/tutorial_toolchain_flow?task=2) for this toolchain.ฏูİı｜]"
 deploy.title: "[G'Ｓａｍｐｌｅ Deploy Stageฏูİı｜]"
 deploy.description: "[G'ｓａｍｐｌe toolchainฏูİı｜]"
 deploy.longDescription: "[G'Ｔｈｅ Ｄｅｌｉｖｅｒｙ Ｐipeline automates continuous deployment.ฏูİı｜]"
