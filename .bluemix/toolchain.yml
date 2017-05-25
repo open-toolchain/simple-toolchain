@@ -20,7 +20,7 @@ toolchain:
   name: 'simple-toolchain-{{timestamp}}'
   template:
     getting_started:
-      $ref: "#/messages/template.gettingStarted"
+      $ref: locales_getting_started.yml
 services:
   sample-repo:
     service_id: githubpublic

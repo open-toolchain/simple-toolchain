@@ -1,0 +1,2 @@
+---
+template.gettingStarted: "**您的工具鏈已備妥！**\n**快速入門：** 確定 Git 儲存庫的變更，以觸發新的建置及部署。如需逐步指示，請參閱此工具鏈的 [指導教學](https://www.ibm.com/devops/method/tutorials/tutorial_toolchain_flow)。"
