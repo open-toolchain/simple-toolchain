@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 20.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 354.3 245" style="enable-background:new 0 0 354.3 245;" xml:space="preserve">
+	 viewBox="0 0 352.3 243.5" style="enable-background:new 0 0 352.3 243.5;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:none;}
 	.st1{fill:#FFFFFF;stroke:#5AAAFA;stroke-miterlimit:10;}
@@ -326,25 +326,25 @@
 <svg id="headerSVG.run" x="267" y="0.7" width="100" height="20">
 	<text x="1%" y="100%" class="st26 st27">RUN</text>
 </svg>
-<svg id="headerSVG.issueTracker" x="-0.2" y="118" width="108" height="20">
+<svg id="headerSVG.issueTracker" x="1.9" y="118" width="108" height="20">
 	<text x="1%" y="50%" alignment-baseline="central" text-anchor="start" class="st26 st27">ISSUE TRACKER</text>
 </svg>
-<svg id="headerSVG.gitHub1" x="1" y="130" width="70" height="20">
+<svg id="headerSVG.gitHub1" x="-0.5" y="130" width="65" height="20">
 	<text x="40%" y="50%" alignment-baseline="central" text-anchor="start" class="st26 st27">GitHub</text>
 </svg>
 <svg id="headerSVG.repository" x="100" y="118" width="80" height="20">
 	<text x="50%" y="50%" text-anchor="middle" alignment-baseline="central" class="st26 st27">REPOSITORY</text>
 </svg>
-<svg id="headerSVG.gitHub2" x="80" y="130" width="80" height="20">
-	<text x="50%" y="50%" alignment-baseline="central" text-anchor="start" class="st26 st27">GitHub</text>
+<svg id="headerSVG.gitHub2" x="95" y="130" width="65" height="20">
+	<text x="35%" y="50%" alignment-baseline="central" text-anchor="start" class="st26 st27">GitHub</text>
 </svg>
-<svg id="headerSVG.pipeline" x="198" y="118" width="50" height="20">
-	<text x="50%" y="50%" text-anchor="middle" alignment-baseline="central" class="st26 st27">PIPELINE</text>
+<svg id="headerSVG.pipeline" x="190" y="118" width="65" height="20">
+	<text x="50%" y="50%" text-anchor="middle" alignment-baseline="central" class="st26 st27">管道</text>
 </svg>
-<svg id="headerSVG.bluemix" x="290" y="118" width="50" height="20">
+<svg id="headerSVG.bluemix" x="280" y="118" width="65" height="20">
 	<text  x="50%" y="50%" text-anchor="middle" alignment-baseline="central" class="st26 st27">BLUEMIX</text>
 </svg>
-<svg id="headerSVG.webIde" x="90" y="228" width="80" height="20">
+<svg id="headerSVG.webIde" x="100" y="228" width="65" height="20">
 	<text x="50%" y="58%" text-anchor="middle" alignment-baseline="central" class="st26 st27">WEB IDE</text>
 </svg>
 
