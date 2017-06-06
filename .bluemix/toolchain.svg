@@ -332,11 +332,11 @@
 <svg id="headerSVG.gitHub1" x="1" y="130" width="70" height="20">
 	<text x="40%" y="50%" alignment-baseline="central" text-anchor="start" class="st26 st27">GitHub</text>
 </svg>
-<svg id="headerSVG.repository" x="100" y="118" width="70" height="20">
+<svg id="headerSVG.repository" x="100" y="118" width="80" height="20">
 	<text x="50%" y="50%" text-anchor="middle" alignment-baseline="central" class="st26 st27">REPOSITORY</text>
 </svg>
-<svg id="headerSVG.gitHub2" x="100" y="130" width="70" height="20">
-	<text x="21%" y="50%" alignment-baseline="central" text-anchor="start" class="st26 st27">GitHub</text>
+<svg id="headerSVG.gitHub2" x="80" y="130" width="80" height="20">
+	<text x="50%" y="50%" alignment-baseline="central" text-anchor="start" class="st26 st27">GitHub</text>
 </svg>
 <svg id="headerSVG.pipeline" x="198" y="118" width="50" height="20">
 	<text x="50%" y="50%" text-anchor="middle" alignment-baseline="central" class="st26 st27">PIPELINE</text>
@@ -344,7 +344,7 @@
 <svg id="headerSVG.bluemix" x="290" y="118" width="50" height="20">
 	<text  x="50%" y="50%" text-anchor="middle" alignment-baseline="central" class="st26 st27">BLUEMIX</text>
 </svg>
-<svg id="headerSVG.webIde" x="100" y="228" width="65" height="20">
+<svg id="headerSVG.webIde" x="90" y="228" width="80" height="20">
 	<text x="50%" y="58%" text-anchor="middle" alignment-baseline="central" class="st26 st27">WEB IDE</text>
 </svg>
 
