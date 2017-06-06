@@ -313,16 +313,41 @@
 		<line id="svg_232" class="st0" x1="133.8" y1="101.9" x2="133.7" y2="101.9"/>
 		<line id="svg_233" class="st0" x1="135.7" y1="101.6" x2="135.7" y2="101.6"/>
 	</g>
-	<text id="headerSVG.issueTracker" transform="matrix(0.9271 0 0 1 1.9888 130.2944)" class="st26 st27">ISSUE TRACKER</text>
-	<text id="headerSVG.gitHub1" transform="matrix(0.9271 0 0 1 23.0991 143.4946)" class="st26 st27">GitHub</text>
-	<text id="headerSVG.think" transform="matrix(1 0 0 1 -0.3569 17.7954)" class="st26 st28">THINK</text>
-	<text id="headerSVG.code" transform="matrix(1 0 0 1 89.3677 17.7954)" class="st26 st28">CODE</text>
-	<text id="headerSVG.deliver" transform="matrix(1 0 0 1 179.1318 17.7954)" class="st26 st28">DELIVER</text>
-	<text id="headerSVG.run" transform="matrix(1 0 0 1 267.8564 17.7954)" class="st26 st28">RUN</text>
-	<text id="headerSVG.repository" transform="matrix(0.9271 0 0 1 100.6055 130.2944)" class="st26 st27">REPOSITORY</text>
-	<text id="headerSVG.gitHub2" transform="matrix(0.9271 0 0 1 115.9028 143.4946)" class="st26 st27">GitHub</text>
-	<text id="headerSVG.pipeline" transform="matrix(0.9271 0 0 1 198.5083 130.2944)" class="st26 st27">PIPELINE</text>
-	<text id="headerSVG.bluemix" transform="matrix(0.9271 0 0 1 290.2925 130.2944)" class="st26 st27">BLUEMIX</text>
-	<text id="headerSVG.webIde" transform="matrix(0.9271 0 0 1 108.7642 242.2744)" class="st26 st27">WEB IDE</text>
+
+	<svg id="headerSVG.think" x="-0.3569" y="0.2" width="100" height="20">
+	<text x="1%" y="100%" class="st26 st27">THINK</text>
+</svg>
+<svg id="headerSVG.code" x="89" y="0.2" width="100" height="20">
+	<text x="1%" y="100%" class="st26 st27">CODE</text>
+</svg>
+<svg id="headerSVG.deliver" x="179" y="0.7" width="100" height="20">
+	<text x="1%" y="100%" class="st26 st27">DELIVER</text>
+</svg>
+<svg id="headerSVG.run" x="267" y="0.7" width="100" height="20">
+	<text x="1%" y="100%" class="st26 st27">RUN</text>
+</svg>
+<svg id="headerSVG.issueTracker" x="1.9" y="118" width="108" height="20">
+	<text x="1%" y="50%" alignment-baseline="central" text-anchor="start" class="st26 st27">ISSUE TRACKER</text>
+</svg>
+<svg id="headerSVG.gitHub1" x="-0.5" y="130" width="65" height="20">
+	<text x="40%" y="50%" alignment-baseline="central" text-anchor="start" class="st26 st27">GitHub</text>
+</svg>
+<svg id="headerSVG.repository" x="100" y="118" width="80" height="20">
+	<text x="50%" y="50%" text-anchor="middle" alignment-baseline="central" class="st26 st27">REPOSITORY</text>
+</svg>
+<svg id="headerSVG.gitHub2" x="95" y="130" width="65" height="20">
+	<text x="35%" y="50%" alignment-baseline="central" text-anchor="start" class="st26 st27">GitHub</text>
+</svg>
+<svg id="headerSVG.pipeline" x="190" y="118" width="65" height="20">
+	<text x="50%" y="50%" text-anchor="middle" alignment-baseline="central" class="st26 st27">管道</text>
+</svg>
+<svg id="headerSVG.bluemix" x="280" y="118" width="65" height="20">
+	<text  x="50%" y="50%" text-anchor="middle" alignment-baseline="central" class="st26 st27">BLUEMIX</text>
+</svg>
+<svg id="headerSVG.webIde" x="100" y="228" width="65" height="20">
+	<text x="50%" y="58%" text-anchor="middle" alignment-baseline="central" class="st26 st27">WEB IDE</text>
+</svg>
+
+	
 </g>
 </svg>
