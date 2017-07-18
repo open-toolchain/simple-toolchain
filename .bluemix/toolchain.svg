@@ -339,7 +339,7 @@
 	<text x="35%" y="50%" alignment-baseline="central" text-anchor="start" class="st26 st27">GitHub</text>
 </svg>
 <svg id="headerSVG.pipeline" x="190" y="118" width="65" height="20">
-	<text x="50%" y="50%" text-anchor="middle" alignment-baseline="central" class="st26 st27">管道</text>
+	<text x="50%" y="50%" text-anchor="middle" alignment-baseline="central" class="st26 st27">PIPELINE</text>
 </svg>
 <svg id="headerSVG.bluemix" x="280" y="118" width="65" height="20">
 	<text  x="50%" y="50%" text-anchor="middle" alignment-baseline="central" class="st26 st27">BLUEMIX</text>
