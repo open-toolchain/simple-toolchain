@@ -30,7 +30,15 @@ services:
       type: clone
       has_issues: true
       enable_traceability: true
-  sample-build:
+  sample-repo2:
+    service_id: githubpublic
+    parameters:
+      repo_name: '{{toolchain.name}}'
+      repo_url: 'https://github.com/open-toolchain/simple-toolchain'
+      type: clone
+      has_issues: true
+      enable_traceability: true
+sample-build:
     service_id: pipeline
     parameters:
       services:
