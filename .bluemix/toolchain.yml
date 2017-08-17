@@ -6,7 +6,7 @@ template:
     $ref: "#/messages/template.name"
   description:
     $ref: "#/messages/template.description"
-  header: '![](toolchain.svg)'
+  header: '![](toolchain.svg?localize)'
   required:
     - sample-build
     - sample-repo
