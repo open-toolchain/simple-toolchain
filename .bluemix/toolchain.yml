@@ -33,12 +33,12 @@ services:
   sample-repo2:
     service_id: githubpublic
     parameters:
-      repo_name: '{{toolchain.name}}'
+      repo_name: 'repo2'
       repo_url: 'https://github.com/open-toolchain/simple-toolchain'
       type: clone
       has_issues: true
       enable_traceability: true
-sample-build:
+  sample-build:
     service_id: pipeline
     parameters:
       services:
@@ -55,7 +55,7 @@ sample-build:
           PROD_ORG_NAME: '{{form.pipeline.parameters.prod-organization}}'
           PROD_REGION_ID: '{{form.pipeline.parameters.prod-region}}'
         execute: true
-webide:
+    webide:
     service_id: orion
 form:
   pipeline:
