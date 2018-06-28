@@ -26,6 +26,10 @@
             "description": "The bluemix space",
             "type": "string"
         },
+        "api-key": {
+            "description": "API key description",
+            "type": "string"
+        },
         "prod-app-name": {
             "description": {
                 "$ref": "#/messages/deploy.appDescription"
@@ -38,7 +42,8 @@
         "prod-region",
         "prod-organization",
         "prod-space",
-        "prod-app-name"
+        "prod-app-name",
+        "api-key"
     ],
     "form": [
         {
@@ -52,6 +57,12 @@
                 "$ref": "#/messages/deploy.appName"
             },
             "key": "prod-app-name"
+        },
+        {
+	        "type": "password",
+	        "readonly": false,
+	        "title": "IBM Cloud API Key",
+	        "key": "api-key"
         },
         {
             "type": "table",
