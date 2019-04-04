@@ -13,9 +13,9 @@ template:
     - sample-repo
   info:
     git url: >-
-      [https://github.com/open-toolchain/simple-toolchain](https://github.com/open-toolchain/simple-toolchain)
+      [https://github.com/Chitkala2019/simple-toolchain](https://github.com/Chitkala2019/simple-toolchain)
     git branch: >-
-      [master](https://github.com/open-toolchain/simple-toolchain/tree/master)
+      [master](https://github.com/Chitkala2019/simple-toolchain/tree/master)
 toolchain:
   name: 'simple-toolchain-{{timestamp}}'
   template:
